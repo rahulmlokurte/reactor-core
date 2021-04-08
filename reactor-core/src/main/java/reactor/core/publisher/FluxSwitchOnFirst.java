@@ -133,8 +133,8 @@ final class FluxSwitchOnFirst<T, R> extends InternalFluxOperator<T, R> {
 	}
 
 	/**
-	 * Adds a flag which indicate that the inbound has already been
-	 * subscriber was set. Fails if inbound is cancelled
+	 * Adds a flag which indicate that the inbound has already set
+	 * its subscriber. Fails if inbound is cancelled.
 	 *
 	 * @return previous observed state
 	 */
