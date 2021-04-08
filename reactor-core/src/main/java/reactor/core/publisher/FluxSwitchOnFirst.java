@@ -233,8 +233,8 @@ final class FluxSwitchOnFirst<T, R> extends InternalFluxOperator<T, R> {
 	}
 
 	/**
-	 * Adds a flag which indicate that the outbound has already been
-	 * terminated with onComplete or onError. Fails if inbound is cancelled or terminated
+	 * Adds a flag which indicate that the outbound has been subscribed.
+	 * Fails if outbound is cancelled.
 	 *
 	 * @return previous observed state
 	 */
