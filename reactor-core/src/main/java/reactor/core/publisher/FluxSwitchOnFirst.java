@@ -213,8 +213,8 @@ final class FluxSwitchOnFirst<T, R> extends InternalFluxOperator<T, R> {
 	}
 
 	/**
-	 * Adds a flag which indicate that the inbound has already been
-	 * requested once. Fails if inbound is cancelled or terminated
+	 * Adds a flag which indicate that the inbound has been
+	 * cancelled. Fails if inbound is cancelled or terminated.
 	 *
 	 * @return previous observed state
 	 */
